@@ -1,2 +1,21 @@
 # Phish-Punisher
-Script to make real looking POST requests to a phishing websites in order to fill up their database with fake credentials
+
+Made with the contributions of https://github.com/arin-prashar and Nelson (@techbynels on instagram)
+
+Don't you hate scammers? Yeah we too! That is why we created this Python Script
+To make real looking POST requests to a phishing website in order to fill up their database with fake credentials:
+
+Costing them Money and Time (as they will have to go through each request and differentiate real victims from our generated ones)
+
+# How?
+
+- We took 300 most common male and female names. Put them into a big list, added numbers after them and added a random domain name from the biggest email service provider companies.
+- For passwords we randomly generated some of them meanwhile also taking some from a passwordlist.
+- We used threading for no downtime between requests
+
+
+## The site
+The phishing site we targeted was a clone of microsoft sign in, in the future we may write scripts for more and also add them here.
+
+### Want to use this?
+Feel free to edit, contribute, fork or use it yourself. Remember to only target phishing websites. We do not take responsibility for damages done on a legitimate website.
