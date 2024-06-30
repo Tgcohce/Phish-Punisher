@@ -1,6 +1,6 @@
 # Phish-Punisher
 
-Made with the contributions of https://github.com/arin-prashar and Nelson (@techbynels on instagram)
+Made with the contributions of [@arin-prashar](https://github.com/arin-prasha) and Nelson (@techbynels on instagram)
 
 Don't you hate scammers? Yeah we too! That is why we created this Python Script
 To make real looking POST requests to a phishing website in order to fill up their database with fake credentials:
