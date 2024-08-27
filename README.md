@@ -19,3 +19,7 @@ The phishing site we targeted was a clone of microsoft sign in, in the future we
 
 ### Want to use this?
 Feel free to edit, contribute, fork or use it yourself. Remember to only target phishing websites. We do not take responsibility for damages done on a legitimate website.
+
+# Crypto Phish Punisher
+
+I fine-tuned the original script to make post requests to a phishing website that tries to grab a crypto wallet's secret seed phrase. The site seems legitimate but when I looked at the code running in the background I noticed that your secret phrase gets sent to an email address and the site gives you an error no matter what.
